@@ -64,6 +64,7 @@ const MapComponent = () => {
               value={searchLat}
               onChange={(e) => setSearchLat(e.target.value)}
             />
+            &nbsp;
             <input
               type="text"
               placeholder="Enter longitude"
